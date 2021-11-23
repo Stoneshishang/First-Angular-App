@@ -1,2 +1,4 @@
 <!-- It has to be a String or something can be easily converted to a String -->
-<p>Server with ID {{ serverId }} is {{ getServerStatus() }}</p>
+<p [ngStyle]="{ backgroundColor: getColor() }">
+  Server with ID {{ serverId }} is {{ getServerStatus() }}
+</p>
