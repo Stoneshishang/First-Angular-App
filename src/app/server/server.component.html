@@ -1,7 +1,7 @@
-<!-- It has to be a String or something can be easily converted to a String -->
 <p
   [ngStyle]="{ backgroundColor: getColor() }"
   [ngClass]="{ online: serverStatus === 'online' }"
 >
+  <!-- It has to be a String or something can be easily converted to a String -->
   Server with ID {{ serverId }} is {{ getServerStatus() }}
 </p>
