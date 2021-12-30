@@ -1,5 +1,7 @@
 # MyFirstApp
 
+This is the code repo for Max [Angular Class First app](https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6655700#notes).
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
 
 ## Development server
